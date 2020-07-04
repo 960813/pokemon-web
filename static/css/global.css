@@ -1,0 +1,23 @@
+section.container {
+}
+
+.news-card {
+    background-color: yellow;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid black;
+}
+
+.news-card-200 {
+    height: 200px;
+}
+.news-card-300 {
+    height: 300px;
+}
+.news-card-400 {
+    height: 400px;
+}
+
+.news-card-600 {
+    height: 600px;
+}
+
