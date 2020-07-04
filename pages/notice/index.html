@@ -20,16 +20,17 @@
             crossorigin="anonymous"></script>
 
     <!--Import Static files-->
-    <link rel="stylesheet" href="static/css/global.css">
+    <link rel="stylesheet" href="../../static/css/global.css">
+    <link rel="stylesheet" href="notice.css">
 
     <!--Meta tag Definition-->
     <title>The Unofficial Pok&eacute;mon Website</title>
-    <link rel="shortcut icon" href="static/image/favicon.ico"/>
+    <link rel="shortcut icon" href="../../static/image/favicon.ico"/>
     <meta property="og:image" content="http://ync.jupiterflow.com/pokemon-web/static/image/logo-pokemon-400x400.png">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="/pokemon-web"><img src="static/image/logo-pokemon-79x45.png" alt="Logo"></a>
+    <a class="navbar-brand" href="/pokemon-web"><img src="../../static/image/logo-pokemon-79x45.png" alt="Logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -68,82 +69,64 @@
     </div>
 </nav>
 <section class="container">
-    <!--위젯 상단 3개-->
-    <div class="row">
-        <div class="col-md-8">
-            <div class="row">
-                <article class="col-md-12 news-card">
-                    <a href="">
-                        <div class="news-card-title">
-                            <img src="static/image/twilight-wings-debut-169-en.jpg" alt="">
-                        </div>
-                        <div class="news-footer news-footer-yellow">
-                            <h3>Watch Episode 6 of <em>Pokémon: Twilight Wings</em> Now</h3>
-                            <p>Allister helps out some feuding friends in the latest episode of this animated series now
-                                on Pokémon TV and YouTube.</p>
-                        </div>
-                    </a>
-                </article>
-            </div>
+    <div class="row news-list">
+        <div class="col-md-10 offset-md-1 news-item">
+            <h2>Pokémon News</h2>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/twilight-wings-debut-11-en.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3>Episode 6 of <em>Pokémon: Twilight Wings</em>, the Galar Region Animated Series</h3>
+                        <p>The sixth episode of this seven-episode animated series is now available on Pokémon TV and YouTube.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/pokemon-go-11.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3>Complete Timed Research and Encounter Ducklett and Flying Pikachu in Pokémon GO</h3>
+                        <p>As Pokémon GO Fest 2020 approaches, enjoy a special weekly challenge filled with fun tasks, Pokémon, and bonuses.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/dragapult-vmax-strategy-11-en.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3>Deck Analysis: Dragapult VMAX</h3>
+                        <p>A new contender from the <em>Sword &amp; Shield—Rebel Clash</em> expansion looks to dominate in the Pokémon TCG.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/pokemon-unite-11.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3>Pokémon UNITE Delivers Strategic Team Battles on Nintendo Switch and Mobile Devices</h3>
+                        <p>Join other players and develop strategies to defeat your opponents in exciting 5-on-5 battles.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/ptv-season17-live-11.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3><em>Pokémon the Series: XY</em> Episodes Added to Pokémon TV</h3>
+                        <p>Ash and his friends learn about Mega Evolution, attend Pokémon summer camp, and more in season 17 of <em>Pokémon the Series</em>.</p>
+                    </div>
+                </a>
+            </article>
+            <article class="news-article">
+                <a href="">
+                    <img src="../../static/image/pokemon-presents-roundup-11-en.jpg" alt="">
+                    <div class="news-wrapper">
+                        <h3>Pokémon Presents Reveals <em>New Pokémon Snap</em>, Pokémon Café Mix, and Shiny Zeraora</h3>
+                        <p>In addition, <em>The Isle of Armor</em> and Pokémon Smile are here, and Mega Evolutions are coming to Pokémon GO.</p>
+                    </div>
+                </a>
+            </article>
         </div>
-        <div class="col-md-4">
-            <div class="row">
-                <article class="col-md-12 news-card">
-                    <a href="">
-                        <div class="news-card-title news-card-right">
-                            <img src="static/image/pokemon-go-34.jpg" alt="">
-                        </div>
-                        <div class="news-footer news-card-right news-footer-green">
-                            <h3>Challenge Your Pokémon GO Skills</h3>
-                        </div>
-                    </a>
-                </article>
-                <article class="col-md-12 news-card">
-                    <a href="">
-                        <div class="news-card-title">
-                            <img src="static/image/pokemon-cafe-mix-169.jpg" alt="">
-                        </div>
-                        <div class="news-footer news-footer-brown">
-                            <h3>Fun in Pokémon Café Mix Today</h3>
-                        </div>
-                    </a>
-                </article>
-            </div>
-        </div>
-    </div>
-    <!--위젯 중단 3개-->
-    <div class="row">
-        <article class="col-md-4 news-card">
-            <a href="">
-                <div class="news-card-title">
-                    <img src="static/image/dragapult-vmax-strategy-169-en.jpg" alt="">
-                </div>
-                <div class="news-footer news-footer-gray">
-                    <h3>Deck Analysis: Dragapult VMAX</h3>
-                </div>
-            </a>
-        </article>
-        <article class="col-md-4 news-card">
-            <a href="">
-                <div class="news-card-title">
-                    <img src="static/image/pokemon-unite-169.jpg" alt="">
-                </div>
-                <div class="news-footer news-footer-black">
-                    <h3>Team Up to Battle in Pokémon UNITE</h3>
-                </div>
-            </a>
-        </article>
-        <article class="col-md-4 news-card">
-            <a href="">
-                <div class="news-card-title">
-                    <img src="static/image/ptv-season17-live-169.jpg" alt="">
-                </div>
-                <div class="news-footer news-footer-blue">
-                    <h3>Ash Arrives in the Kalos Region on Pokémon TV</h3>
-                </div>
-            </a>
-        </article>
-
     </div>
 </section>
 <!--Footer-->
