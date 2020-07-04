@@ -1,23 +1,103 @@
-section.container {
+body {
+    background: #fff url(../image/container_bg.png);
+}
+
+a, a:visited, a:link {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 137.5%;
+    line-height: 125%;
+    text-transform: none;
+    font-family: "Flexo-Medium", arial, sans-serif;
 }
 
 .news-card {
-    background-color: yellow;
-    border-radius: 10px 10px 0 0;
-    border: 2px solid black;
+    margin-top: 2em;
+    box-sizing: border-box;
 }
 
-.news-card-200 {
-    height: 200px;
-}
-.news-card-300 {
-    height: 300px;
-}
-.news-card-400 {
-    height: 400px;
+.news-card:hover {
+    animation-name: news-card-animation;
+    animation-duration: 300ms;
 }
 
-.news-card-600 {
-    height: 600px;
+@keyframes news-card-animation {
+    0% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+    50% {
+        transform: matrix(1, 0, 0, 1, 0, -5);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+
+}
+.news-card-right {
+    float: left;
 }
 
+.news-card-title > img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+
+.news-card-title.news-card-right {
+    width: 45%;
+}
+
+.news-card-title.news-card-right > img {
+    border-radius: 5px 0 0 5px;
+}
+
+.news-footer {
+    border-radius: 0 0 5px 5px;
+    padding-top: 0.25em;
+    padding-bottom: 1em;
+}
+
+.news-footer > h3 {
+    margin: 0.75em 0.5em 0 1em;
+    color: white;
+}
+
+.news-footer p {
+    margin: 0 1em;
+    color: black;
+}
+
+
+.news-footer.news-card-right {
+    width: 55%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.news-footer-yellow {
+    background-color: #e6bc2f;
+    transition: background-color 150ms linear;
+}
+
+.news-card:hover .news-footer-yellow {
+    background-color: #daa31c;
+}
+
+.news-footer-green {
+    background-color: #4dad5b;
+    transition: background-color 150ms linear;
+}
+
+.news-card:hover .news-footer-green {
+    background-color: #369143;
+}
+
+.news-footer-brown {
+    background-color: #675945;
+    transition: background-color 150ms linear;
+}
+
+.news-card:hover .news-footer-brown {
+    background-color: #483f31;
+}
