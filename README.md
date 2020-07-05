@@ -48,12 +48,12 @@
 ## About The Project
 [![Pokemon Screen Shot][product-screenshot]](https://jupiterflow.com/project/7)
 
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/001.jpg?raw=true)](https://jupiterflow.com/project/7)
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/002.jpg?raw=true)](https://jupiterflow.com/project/7)
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/003.jpg?raw=true)](https://jupiterflow.com/project/7)
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/004.jpg?raw=true)](https://jupiterflow.com/project/7)
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/005.jpg?raw=true)](https://jupiterflow.com/project/7)
-[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/006.jpg?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/001.png?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/002.png?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/003.png?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/004.png?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/005.png?raw=true)](https://jupiterflow.com/project/7)
+[![Pokemon](https://github.com/960813/pokemon-web/blob/master/_data/006.png?raw=true)](https://jupiterflow.com/project/7)
 
 This is a website where you can download my the other project (online Pokemon) and get information about Pokemon.
 ### Main Features
