@@ -36,15 +36,7 @@
     animation-duration: 300ms;
 }
 
-.news-article img {
-    width: 30%;
-}
-
 .news-article .news-wrapper {
-    float: right;
-    height: auto;
-    width: 70%;
-    position: relative;
     color: #919191;
 }
 

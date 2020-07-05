@@ -1,0 +1,33 @@
+.devnote-content {
+    padding-top: 1.5em;
+    background-color:white;
+}
+
+.devnote-content h2 {
+    color: #919191;
+    cursor: default;
+    line-height: 125%;
+    text-transform: none;
+}
+
+.publish__title,
+.publish__date,
+.publish__body {
+    margin: 0;
+}
+
+.publish__date {
+    font-size: .8em;
+}
+
+.publish__list > li {
+    padding: 1em 0;
+}
+
+.publish__list > li:not(:last-child) {
+    border-bottom: 1px solid #424242;
+}
+
+.publish__body {
+    margin-top: 1em;
+}

@@ -1,0 +1,15 @@
+.post-content {
+    padding-top: 1.5em;
+    background-color: white;
+}
+
+.post-content h2 {
+    color: #919191;
+    cursor: default;
+    line-height: 125%;
+    text-transform: none;
+}
+
+.post-title {
+    margin: 1em 0;
+}

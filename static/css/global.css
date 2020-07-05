@@ -4,6 +4,7 @@ body {
 
 section.container {
     background: #fff url(../image/container_bg.png);
+    padding-bottom: 2em;
 }
 
 a, a:visited, a:link {
