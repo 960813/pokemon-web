@@ -57,7 +57,7 @@
 
 This is a website where you can download my the other project (online Pokemon) and get information about Pokemon.
 ### Main Features
-* News Highligh Widgets in Main
+* News Highlight Widgets in Main
 * News-list and detail page
 * Game Download page
 * Contact us page(with email)
